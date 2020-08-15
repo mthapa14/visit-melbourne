@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Melbourne</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- embeding google font awesome-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+    <!-- embedding AOS link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- embeding font awesome icon code -->
+    <script src="https://kit.fontawesome.com/cb79ee657c.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+    <!-- Opening Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+          <button class="close-btn" id="close">
+            <i class="fa fa-times"></i>
+          </button>
+          <div class="modal-header">
+            <h3>Welcome</h3>
+          </div>
+          <div class="modal-content">
+            <p>
+              <span style="color:rgb(7, 82, 13);text-align:center; font-size: 20px;"> Welcome to this website.</span>
+              <br> I have created this website only for educational purpose. I have gathered the information about some of the most visited places of Melbourne.
+              <br> <br> If you want to look at the <span style="font-weight:bold; font-size: 15px; color: teal;">CODE</span>, please scroll down. There is a link at the bottom of this page.
+              <br> Thank You!!
+            </p>
+          </div>
+        </div>
+    </div>
+
+    <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+
+    <header>
+        <div class="sub-header logo">
+            <p href="#"><i class="fas fa-directions"></i></p>
+            <a href="#">Visit Melbourne</a>
+        </div>
+        <div class="sub-header icons">
+            <ul>
+                <li><a target="_blank" href="https://www.facebook.com/mohan.thapa.5243"><i class="fab fa-facebook fa-2x"></i></a>
+                <li><a target="_blank" href="https://www.instagram.com/mohan.thapa5767/"><i class="fab fa-instagram fa-2x"></i></a>
+                <li><a target="_blank" href="https://www.linkedin.com/in/mohan-thapa-5b43a0141/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            </ul>
+        </div>
+    </header>
+
+    <section class="home-page">
+        <div class="sub-header">
+            <h3 class="heading-3" data-aos="fade-right">"Your Second Home"</h3>
+            <h1 class="heading-1" data-aos="fade-left">Explore Melbourne</h1>
+        </div>
+    </section>
+
+    <div id='alrt' style="fontWeight = 'bold'"></div>
+
+
+    <div class="top-places" data-aos="fade-up">
+        <h3 class="heading-3">Top 3 Places</h3>
+        <div class="place-list">
+            <div class="place-list sub-class">
+                <img src="images/place1.jpg" alt="Realtor 1" class="place__img">
+                <div class="place-details">
+                    <h4 class="heading-4 heading-4--light">Federation Square</h4>
+                    <p class="location">Swanston St & Flinders St, Melbourne VIC 3000</p>
+                </div>
+            </div>
+            <div class="place-list sub-class">
+                <img src="images/place2.jpg" alt="Realtor 2" class="place__img">
+                <div class="place-details">
+                    <h4 class="heading-4 heading-4--light">National Gallery of Victoria</h4>
+                    <p class="location">180 St Kilda Rd, Melbourne VIC 3006</p>
+                </div>
+            </div>
+            <div class="place-list sub-class">
+                <img src="images/place3.jpg" alt="Realtor 2" class="place__img">
+                <div class="place-details">
+                    <h4 class="heading-4 heading-4--light">Royal Botanic Gardens</h4>
+                    <p class="location">Birdwood Ave, South Yara VIC 3141</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="popular-place">
+        <div class="popular-place-container">
+            <div class="popular-place-pic" data-aos="fade-up">
+                <img src="images/fedsq1.jpg" alt="Federation Square img1" class="pp-img1">
+                <img src="images/fedsq2.jpg" alt="Federation Square img2" class="pp-img2 img2-hover">
+            </div>
+            <div class="popular-place-content" data-aos="fade-up">
+                <h3 class="heading-3 h3-mod" id="h3-mod1">Federation Square</h3>
+                <h2 class="heading-2 heading-2--dark h2-mod" id="h2-mod1">Fed Square is best known for home to major cultural attractions, world-class events on the edge of the Melbourne Central business district.</h2>
+                <p class="para-content">
+                  It covers an area of 3.2 ha (7.9 acres) at the intersection of Flinders and Swanston 
+                  Streets built above busy railway lines and across the road from 
+                  Flinders Street station. It incorporates major cultural institutions 
+                  such as the Ian Potter Centre, Australian Centre for the Moving Image (ACMI) 
+                  and the Koorie Heritage Trust as well as cafes and bars in a 
+                  series of buildings centred around a large paved square, and a 
+                  glass walled atrium.
+                </p>
+                <p class="full-link" id="full-link-1">Check More</p>
+                <p class="full-link-para para1" id="full-link-para1">Sorry, 😉 I do not have much content here. 
+                    Please check this Wikipedia Link: <a target="_blank" class="wiki-link" href="https://en.wikipedia.org/wiki/Federation_Square">https://en.wikipedia.org/wiki/Federation_Square</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="popular-place-container">
+            <div class="popular-place-pic" data-aos="fade-up">
+                <img src="images/nationalglry1.jpg" alt="Federation Square img1" class="pp-img1">
+                <img src="images/nationalglry2.jpg" alt="Federation Square img2" class="pp-img2 img2-hover">
+            </div>
+            <div class="popular-place-content" data-aos="fade-up">
+                <h3 class="heading-3 h3-mod" id="h3-mod2">National Gallery Victoria</h3>
+                <h2 class="heading-2 heading-2--dark h2-mod" id="h2-mod2">
+                  Victoria's cultural flagship and home to Australia's finest art collection, recognised as one of the leading art of museums of the world.
+                </h2>
+                <p class="para-content">
+                  National Gallery of Victoria is founded in 1861, it is Australia's oldest, largest and most visited art museum. The NGV International 
+                  building, designed by Sir Roy Grounds, opened in 1968, 
+                  and was redeveloped by Mario Bellini before reopening in 2003. 
+                  It houses the gallery's international art collection and is on 
+                  the Victorian Heritage Register. Designed by Lab Architecture Studio, 
+                  the Ian Potter Centre opened in 2002 and houses the gallery's Australian 
+                  art collection.
+                </p>
+                <p class="full-link" id="full-link-2">Check More</p>
+                <p class="full-link-para para1" id="full-link-para2">Sorry, 😉 I do not have much content here. 
+                    Please check this Wikipedia Link: <a target="_blank" class="wiki-link" href="https://en.wikipedia.org/wiki/National_Gallery_of_Victoria">https://en.wikipedia.org/wiki/National_Gallery_of_Victoria</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="popular-place-container">
+            <div class="popular-place-pic" data-aos="fade-up">
+                <img src="images/royalbotanic1.jpg" alt="Federation Square img1" class="pp-img1">
+                <img src="images/royalbotanic2.jpg" alt="Federation Square img2" class="pp-img2 img2-hover">
+            </div>
+            <div class="popular-place-content" data-aos="fade-up">
+                <h3 class="heading-3 h3-mod" id="h3-mod3">Royal Botanic Garden</h3>
+                <h2 class="heading-2 heading-2--dark h2-mod" id="h2-mod3">
+                  The best-known feature of the gardens is the large floral clock, which contains around 7,000 flowers 
+                  and is redesigned twice a year.
+                </h2>
+                <p class="para-content">
+                  Melbourne Gardens was founded in 1846 when land was reserved on the south 
+                  side of the Yarra River for a new botanic garden. It extends across 38 hectares 
+                  (94 acres) that slope to the river with trees, garden beds, lakes and lawns. 
+                  It displays almost 50,000 individual plants representing 8,500 different 
+                  species. These are displayed in 30 living plant collections.
+                </p>
+                <p class="full-link" id="full-link-3">Check More</p>
+                <p class="full-link-para para1" id="full-link-para3">Sorry, 😉 I do not have much content here. 
+                    Please check this Wikipedia Link: <a target="_blank" class="wiki-link" href="https://en.wikipedia.org/wiki/Royal_Botanic_Gardens_Victoria">https://en.wikipedia.org/wiki/Royal_Botanic_Gardens_Victoria</a>
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="top-nine-places">
+        <div class="other-places" data-modal-target="modal1" data-aos="fade-up">
+            <img src="images/eureka-skydesk.jpg" alt="Eureka Skydesk">
+            <p class="full-links">Eureka Skydeck</p>
+        </div>
+        <div class="other-places" data-modal-target="modal2"data-aos="fade-up">
+            <img src="images/queen-victoria-market.jpg" alt="Eureka Skydesk">
+            <p class="full-links">Queen Victoria Market</p>
+        </div>
+    </section>
+
+    <section class="top-nine-places">
+        <div class="other-places" data-modal-target="modal3" data-aos="fade-up">
+            <img src="images/melb-zoo.jpg" alt="Melbourne Zoo">
+            <p class="full-links">Melbourne Zoo</p>
+        </div>
+        <div class="other-places" data-modal-target="modal4" data-aos="fade-up">
+            <img src="images/melb-museum.jpg" alt="Melbourne Museum">
+            <p class="full-links">Melbourne Museum</p>
+        </div>
+    </section>
+
+    <section class="top-nine-places">
+        <div class="other-places" data-modal-target="modal5" data-aos="fade-up">
+            <img src="images/puffing-rail.jpg" alt="Puffing Railway">
+            <p class="full-links">Puffing Billy Railway</p>
+        </div>
+        <div class="other-places" data-modal-target="modal6" data-aos="fade-up">
+            <img src="images/st-kilda.jpg" alt="St Kilda">
+            <p class="full-links">St Kilda Beach</p>
+        </div>
+    </section>
+
+    <section class="top-nine-places">
+        <div class="other-places" data-modal-target="modal7" data-aos="fade-up">
+            <img src="images/great-ocean.jpg" alt="Great Ocean">
+            <p class="full-links">Great Ocean Road</p>
+        </div>
+        <div class="other-places" data-modal-target="modal8" data-aos="fade-up">
+            <img src="images/Old-Melbourne-Gaol.jpg" alt="Old Melbourne Gaol">
+            <p class="full-links">Old Melbourne Gaol</p>
+        </div>
+    </section>
+
+    <!-- Modal for top 8 places to visit-->
+
+    <div class="extra-modal" id="modal1">
+        <div class="extra-modal-content">
+          <span class="modal-close">&times;</span>
+          <div class="e-modal-header">
+            <h3>Eureka Skydeck</h3>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Location</h3>
+            <p class="modal-para">
+              Eureka Tower is a 297.3 m (975 ft) skyscraper located in the Southbank precinct of Melbourne, Victoria, Australia. 
+              It's construction was started on August 2002 and finished on October 2006.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">History</h3>
+            <p class="modal-para">
+              Eureka Tower is named after the Eureka Stockade, a rebellion during 
+              the Victorian gold rush in 1854. This has been incorporated into the 
+              design, with the building's gold crown representing the gold rush and a 
+              red stripe representing the blood spilt during the revolt. The blue glass cladding 
+              that covers most of the building represents the blue background of the stockade's 
+              flag and the white lines also represent the Eureka Stockade flag. The white horizontal 
+              stripes also represent markings on a surveyor's measuring staff.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Why is this famous for?</h3>
+            <p class="modal-para">
+              It was the world's tallest residential tower when measured to its highest floor, until surpassed 
+              by Ocean Heights and the HHHR Tower in Dubai. From 2006 to 2019, it was the tallest building in Melbourne, 
+              until the topping out of Australia 108. It is currently the third tallest building in Australia, behind the Q1 
+              in Queensland and Australia 108, as well as the second tallest to roof (excluding spire) behind the 
+              latter skyscraper. As of 2016 it was the 15th tallest residential building in the world.
+            </p>
+          </div>
+        </div>
+    </div>
+    <div class="extra-modal" id="modal2">
+        <div class="extra-modal-content">
+          <span class="modal-close">&times;</span>
+          <div class="e-modal-header">
+            <h3>Queen Victoric Market</h3>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Location</h3>
+            <p class="modal-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Quasi reiciendis maiores nostrum facere quam molestias perspiciatis, 
+                doloribus placeat harum ipsam!
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">History</h3>
+            <p class="modal-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Quasi reiciendis maiores nostrum facere quam molestias perspiciatis, 
+                doloribus placeat harum ipsam!
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Why is this famous for?</h3>
+            <p class="modal-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Quasi reiciendis maiores nostrum facere quam molestias perspiciatis, 
+                doloribus placeat harum ipsam!
+            </p>
+          </div>
+        </div>
+    </div>
+    <div class="extra-modal" id="modal3">
+        <div class="extra-modal-content">
+          <span class="modal-close">&times;</span>
+          <div class="e-modal-header">
+            <h3>Melbourne Zoo</h3>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Location</h3>
+            <p class="modal-para">
+              The Queen Victoria Market (also known locally as Vic Market or Queen Vic) is a major landmark in Melbourne, Victoria, Australia, 
+              and at around seven hectares (17 acres) is the largest open air market in the Southern Hemisphere.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">History</h3>
+            <p class="modal-para">
+              The market was established in the late 1860s to serve as both a wholesale and retail market for the 
+              rapidly growing population of the city of Melbourne. The centrally located Queen Victoria 
+              Market replaced a number of smaller markets situated in different parts of the city. 
+              The site was developed in stages from 1867 through to 1936 when the site was fully developed. 
+              Throughout the twentieth and twenty-first centuries, the market has undergone minor 
+              expansions and upgrades. 
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Why is this famous for?</h3>
+            <p class="modal-para">
+              The Queen Victoria Market is the largest and most intact surviving 19th century market 
+              in the city.  The Queen Victoria Market is historically, architecturally and socially 
+              significant and has been listed on the Victorian Heritage Register. It has become an increasingly 
+              important tourist attraction in the city of Melbourne.
+            </p>
+          </div>
+        </div>
+    </div>
+    <div class="extra-modal" id="modal4">
+        <div class="extra-modal-content">
+          <span class="modal-close">&times;</span>
+          <div class="e-modal-header">
+            <h3>Melbourne Museum</h3>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Location</h3>
+            <p class="modal-para">
+              Melbourne Museum is a natural and cultural history museum located in the Carlton Gardens in Melbourne, Australia.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">History</h3>
+            <p class="modal-para">
+              The museum had its earliest beginnings in the Government Assay Office which on 9 March 1854. 
+              The period in which the Victorian government was led by the Premier Sir Rupert Hamer (1972–1981) 
+              was one of policy development for museums in Victoria. The new Melbourne Museum is 
+              located on the site of the former Melbourne Exhibition Speedway which operated 
+              from 5 November 1928 until 7 March 1936.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Why is this famous for?</h3>
+            <p class="modal-para">
+              Melbourne museum is a rich response to Melbourne's urban condition, and provides a place 
+              for education, history, culture and society to engage with each other in a 
+              contemporary setting. It is now an important part of Melbourne's soft infrastructure and 
+              is consistently ranked as one of the most popular museums and tourist attractions in Australia, 
+              winning 'Best Tourist Attraction' at the Australian Tourism Awards in 2011.
+            </p>
+          </div>
+        </div>
+    </div>
+    <div class="extra-modal" id="modal5">
+        <div class="extra-modal-content">
+          <span class="modal-close">&times;</span>
+          <div class="e-modal-header">
+            <h3>Puffing Billy Railway</h3>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Location</h3>
+            <p class="modal-para">
+              The Puffing Billy Railway is a 2 ft 6 in (762 mm) narrow gauge heritage railway 
+              in the Dandenong Ranges in Melbourne, Australia.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">History</h3>
+            <p class="modal-para">
+              The line was opened in 1900 to serve the local farming and timber community. 
+              It originally ran from Upper Ferntree Gully station, the terminus of the broad gauge 
+              line from Melbourne and now part of Melbourne's suburban railway system, 
+              but it now begins at Belgrave.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Why is this famous for?</h3>
+            <p class="modal-para">
+              The railway was originally one of five narrow gauge lines of the Victorian 
+              Railways opened around the beginning of the 20th century. It runs through the 
+              southern foothills of the Dandenong Ranges to Gembrook. Being close to the city of Melbourne 
+              and with a post-preservation history spanning over 50 years, the line is one of the 
+              most popular steam heritage railways in the world,[1] and attracts tourists 
+              from all over Australia and overseas.
+            </p>
+          </div>
+        </div>
+    </div>
+    <div class="extra-modal" id="modal6">
+        <div class="extra-modal-content">
+          <span class="modal-close">&times;</span>
+          <div class="e-modal-header">
+            <h3>St Kilda Beach</h3>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Location</h3>
+            <p class="modal-para">
+              St Kilda Beach is a beach located in St Kilda, Port Phillip, Victoria, Australia, 
+              6 kilometres (3.7 mi) south from the Melbourne city centre.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">History</h3>
+            <p class="modal-para">
+              In the early years of Melbourne, the Yarra River and the other creeks of Melbourne were 
+              used for bathing and for drinking water. By the 1850s, however, the Yarra was becoming 
+              quite polluted, though people continued to bathe in it and drink the water. Until 
+              the 1850s, sea bathing was not generally considered acceptable.
+              The St Kilda Sea Baths were opened in 1860, and provided separate sections for men and women.
+              The St Kilda Foreshore Committee was created in 1906, charged with 
+              overseeing improvements and bringing some organisation to the neglected 
+              foreshore from West Beach, South Melbourne, to Point Ormond.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Why is this famous for?</h3>
+            <p class="modal-para">
+              St Kilda Beach is the home of the Royal Melbourne Yacht Squadron, which began in 
+              the early 1870s as the St Kilda Sailing Club, with the present clubhouse dating to the 1920s 
+              and the St Kilda Lifesaving Club, which was established in 1911. A large number 
+              of sporting tournaments and cultural events are staged on the beach or on the 
+              parklands adjoining the beach. 
+              The roads which run alongside St Kilda Beach are popular for many sporting events, 
+              such as marathons and bicycle racing.
+            </p>
+          </div>
+        </div>
+    </div>
+    <div class="extra-modal" id="modal7">
+        <div class="extra-modal-content">
+          <span class="modal-close">&times;</span>
+          <div class="e-modal-header">
+            <h3>Great Ocean Road</h3>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Location</h3>
+            <p class="modal-para">
+              The Great Ocean Road is an Australian National Heritage listed 243-kilometre (151 mi) 
+              stretch of road along the south-eastern coast of Australia between the Victorian 
+              cities of Torquay and Allansford.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">History</h3>
+            <p class="modal-para">
+              The Great Ocean Road was first planned towards the end of World War I, 
+              when chairman of the Country Roads Board, William Calder, asked the State War Council 
+              for funds to be provided for returned soldiers to work on roads in sparsely populated 
+              areas in the Western District. 
+              In 1918, the Great Ocean Road Trust was formed as a private company, under the helm 
+              of president Howard Hitchcock. The company managed to secure £81,000 in capital from private 
+              subscription and borrowing, with Hitchcock himself contributing £3000.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Why is this famous for?</h3>
+            <p class="modal-para">
+              The road is considered a tourist attraction in the area, in which much of the road hugs 
+              coastline affectionately known as the Surf Coast, between Torquay and 
+              Cape Otway, and the Shipwreck Coast further west of Cape Otway, providing 
+              visibility of Bass Strait and the Southern Ocean. The road traverses rainforests, 
+              as well as beaches and cliffs composed of limestone and sandstone, which is susceptible to erosion.
+            </p>
+          </div>
+        </div>
+    </div>
+    <div class="extra-modal" id="modal8">
+        <div class="extra-modal-content">
+          <span class="modal-close">&times;</span>
+          <div class="e-modal-header">
+            <h3>Old Melbourne Goal</h3>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Location</h3>
+            <p class="modal-para">
+              The Old Melbourne Gaol is a former jail and current museum on Russell Street, 
+              in Melbourne, Victoria, Australia. It consists of a bluestone building and courtyard, 
+              and is located next to the old City Police Watch House and City Courts buildings.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">History</h3>
+            <p class="modal-para">
+              An allotment of scrubland to the north-east of Melbourne was selected as Port Phillips 
+              first permanent gaol. On 1 January 1838, George Wintle was appointed to be gaoler 
+              at the prison at £100 a year; with the site becoming colloquially known as Wintle's Hotel. 
+              Construction of the gaol started in 1839–1840 on Collins Street West, but 
+              it was considered too small at the time. A second gaol was then built between 
+              1841 and 1844 at the corner of Russell and La Trobe Streets, adjoining the 
+              then Supreme Court. The first cell block was opened for prisoners in 1845, 
+              but the facilities were considered inadequate; escapes occurring frequently. 
+              The gaol was already crowded by 1850.
+            </p>
+          </div>
+          <div class="e-modal-content">
+            <h3 class="modal-heading">Why is this famous for?</h3>
+            <p class="modal-para">
+              The three-storey museum displays information and memorabilia of the 
+              prisoners and staff, including death masks of the executed criminals. 
+              At one time the museum displayed what was believed at the time to be Ned Kelly's 
+              skull, before it was stolen in 1978.
+            </p>
+          </div>
+        </div>
+    </div>
+
+    <section class="img-gallery" data-aos="fade-up">
+        <figure class="gallery-item gallery-item-1">
+            <img src="images/img1.jpg" alt="Image 1" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-2">
+            <img src="images/img2.jpg" alt="Image 2" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-3">
+            <img src="images/img3.jpg" alt="Image 3" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-4">
+            <img src="images/img4.jpg" alt="Image 4" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-5">
+            <img src="images/img5.jpg" alt="Image 5" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-6">
+            <img src="images/img6.jpg" alt="Image 6" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-7">
+            <img src="images/img7.jpg" alt="Image 7" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-8">
+            <img src="images/img8.jpg" alt="Image 8" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-9">
+            <img src="images/img9.jpg" alt="Image 9" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-10">
+            <img src="images/img10.jpg" alt="Image 10" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-11">
+            <img src="images/img11.jpg" alt="Image 11" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-12">
+            <img src="images/img12.jpg" alt="Image 12" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-13">
+            <img src="images/img13.jpg" alt="Image 13" class="gallery_img">
+        </figure>
+        <figure class="gallery-item gallery-item-14">
+            <img src="images/img14.jpg" alt="Image 14" class="gallery_img">
+        </figure>
+    </section>
+
+    <div class="interface-container" data-aos="fade-up">
+        <p>I visit Melbourne for <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+    </div>
+
+    <h1 class="heading-3 faq-header" data-aos="fade-down">Important information for Visitors</h1>
+
+    <div class="accordion" data-aos="fade-up">
+        <div class="accordion-item">
+            <div class="accordion-item-header">
+                What is unknown fact about Melbourne?
+            </div>
+            <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Melbourne was the capital city of Australia for 26 years between 1901 and 1927 before the capital shifted to Canberra.
+            </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-item-header">
+              What is Melbourne best known for?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Melbourne is the cultural capital of Australia, known for its music, art centres and museums, celebration and expression of art. It has been ranked, year after year, the most 'liveable city'.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Is living in Melbourne expensive?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Melbourne is ranked as the world's 79th most expensive city out of the 209 cities surveyed for Mercer's 2019 Cost of Living Survey.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Is Melbourne dangerous to visit?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                The 80% rating proves that safety is at a high level and that tourists can enjoy their stay in this reasonably safe city.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Where are the cheapest suburbs to rent in Melbourne?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                The most cheapest suburb in Melbourne is Albion which cost $270 per week.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Is Melbourne weather bad?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Melbourne weather is actually very unpredictable, even a sunny day can turn into a very gloomy or even a rainy day.
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="feedback">
+      <h1 class="heading-3 faq-header" data-aos="fade-down">Feedback Form</h1>
+      <h3 class="feedback-sub-heading" data-aos="fade-down">
+        If you find this website helpful, please type your message and tell me how you feel about this website.
+      </h3>
+      
+      <div class="feedback-form">
+        <div class="contact-form" data-aos="fade-up">
+          <h3 class="heading-3 faq-header">Contact</h3>
+          <div class="contact-form-items">
+            <p class="item-style"><span style="color:rgb(9, 94, 13);">Phone - <a style="text-decoration: none;" href="tel:0426251253"></span> 0426251253 (<i class="fas fa-phone"></i>)</a></p>
+            <p class="item-style"><span style="color:rgb(9, 94, 13);">Email - <a style="text-decoration: none;" href="mailto:mohan.thapa5767@gmail.com"></span> mohan.thapa5767@gmail.com (<i class="fas fa-envelope"></i>)</a></p>
+            <p class="item-style"><span style="color:rgb(9, 94, 13);">Location -</span> Melbourne, Australia (<i class="fas fa-location-arrow"></i>)</p>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" data-aos="fade-up">
+          <h3 class="heading-3 faq-header">Message</h3>
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Name"
+              class="form-input"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+              class="form-input"
+              required
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea 
+              id="message"
+              name="message"
+              placeholder="Type Message"
+              class="form-input"
+              required></textarea>
+          </div>
+          <div class="alert">Your message has been sent</div>
+          <button type="submit" value="Submit" class="submit-btn"> Submit </button>
+        </form>
+      </div>
+
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-sub">
+            <h3 class="heading-3 footer-sub-heading">Thank You</h3>
+            <p class="footer-sub-para">I would like to thank you for visiting this website. <br>
+                This website is made only for educational practice purpose. All the contents in this website are from Google/Wikipedia. <br>
+                If you want to look at the code, please go to <a class="github-link" target="_blank" href="https://github.com/mthapa14/visit-melbourne">https://github.com/mthapa14/visit-melbourne</a> 
+                and check the Repositories.
+            </p>
+        </div>
+        <p class="copyright">
+            &copy; Copyright 2020 by Mohan Thapa.
+        </p>
+    </footer>
+
+    <!-- Script link for AOS file-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="javascript/animation.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase.js"></script>
+    <!-- Script link to main js file-->
+    <script src="javascript/script.js"></script>
+    <!-- Script link to firebase connection js file-->
+    <script src="javascript/firebase-connection.js"></script>
+</body>
+</html>
